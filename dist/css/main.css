@@ -1,0 +1,97 @@
+.tym-container {
+  width: min(50%, 300px);
+  padding: 2rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  display: none;
+}
+.tym-container .tym-container__image {
+  margin: 1rem 0 2rem;
+}
+.tym-container .tym-container__header {
+  margin: 0.8rem 0;
+}
+.tym-container .tym-container__message {
+  text-align: center;
+  opacity: 60%;
+}
+.tym-container .tym-container__description {
+  padding: 0.7rem 1rem;
+  border-radius: 50px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 18%);
+}
+
+.main-container {
+  width: min(50%, 300px);
+  padding: 2rem;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+}
+.main-container .main-container__star {
+  padding: 1rem;
+  border-radius: 20px;
+  background: hsl(213, 19%, 18%);
+}
+.main-container .main-container__heading {
+  margin: 1.5rem 0;
+}
+.main-container .main-container__paragraph {
+  margin-bottom: 2rem;
+  opacity: 60%;
+}
+.main-container .main-container__rates {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-container .main-container__rates button {
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  border-radius: 50px;
+  border: 0;
+  background-color: hsl(213, 19%, 18%);
+  transition: background-color 0.3s ease-in-out;
+}
+.main-container .main-container__rates button:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.button {
+  font-size: 1rem;
+  margin-top: 1.7rem;
+  width: 100%;
+  padding: 0.9rem;
+  border-radius: 30px;
+  border: 0;
+  background-color: hsl(25, 97%, 53%);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(216, 8%, 38%);
+  height: 100vh;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  font-family: "overpass";
+}/*# sourceMappingURL=main.css.map */
